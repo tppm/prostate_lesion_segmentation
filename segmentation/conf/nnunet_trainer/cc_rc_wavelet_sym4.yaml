@@ -1,0 +1,2 @@
+instance_loss: {_target_: bicc_loss.VectorizedCCLoss, dice_smooth: 0.0}
+rand_filter: wavelet_sym4

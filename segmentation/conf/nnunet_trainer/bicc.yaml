@@ -1,0 +1,1 @@
+instance_loss: {_target_: bicc_loss.VectorizedBiCCLoss, alpha: 0.5, dice_smooth: 0.0, pred_branch_dice_smooth: 0.0, empty_cell_loss: detached}

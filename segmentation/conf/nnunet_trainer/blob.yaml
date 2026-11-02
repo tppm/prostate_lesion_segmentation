@@ -1,0 +1,1 @@
+instance_loss: {_target_: bicc_loss.VectorizedBlobLoss, dice_smooth: 0.0}

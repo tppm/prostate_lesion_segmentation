@@ -1,0 +1,2 @@
+steps:
+  - {_target_: segmentation.random_filters.RandFilterd, keys: image, family: conv_scholz, prob: 0.5, nonzero_rescale: true, k: 5, layers: 5}
